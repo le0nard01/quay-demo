@@ -2,7 +2,7 @@
 FROM python:3.9-slim
 
 # Set the working directory inside the container
-WORKDIR /app
+WORKDIR /home
 
 # Install required dependencies (example: Flask)
 RUN pip install --no-cache-dir flask
